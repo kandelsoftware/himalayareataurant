@@ -1,0 +1,46 @@
+<%= form_for @himalaya, :html => { :class => 'form-horizontal' } do |f| %>
+ <% f.error_messages %>
+
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :email, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :email, :class => 'text_field' %>
+    </div>
+  </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :personas, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :personas, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :hora, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :hora, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :phone, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :phone, :class => 'text_field' %>
+    </div>
+  </div>
+<div class="control-group">
+    <%= f.label :reserva, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :reserva, id: 'himalaya',:class => 'date_select' %>
+      <div id="himalaya_datepicker">
+    </div>
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                himalayas_path, :class => 'btn' %>
+  </div>
+<% end %>

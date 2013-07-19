@@ -1,0 +1,156 @@
+/* @override http://localhost:3000/assets/himalayas.css?body=1 */
+
+
+html, body {
+  background-color: #863a22;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+a {
+  color: #0000FF;
+  img { border: none; }
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+#flash_notice, #flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+  width: 400px;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.error_messages, #error_explanation {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  font-size: 12px;
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 0;
+    background-color: #c00;
+    color: #fff;
+  }
+p { margin: 8px 10px; }
+ul { margin-bottom: 0; }
+}
+.field_with_errors {
+  display: inline;
+}
+label.message{
+  color: red;
+}
+form .field, form .actions {
+  margin: 12px 0;
+
+}
+div.field label
+{
+ font-family: Verdana, Helvetica, Arial;
+  margin: 12px 0;
+    color: #fff;
+  font: italic 30px Verdana, Helvetica, Arial;
+
+}
+div#himalaya_datepicker.hasDatepicker{
+  font-size: 13px;
+}
+
+#nav {
+  float: right;
+}
+
+div.field_reserva label{
+  font-size: 30px;
+  font-style: italic;
+  font-family: Verdana, Helvetica, Arial;
+  text-decoration: underline;
+
+}
+div.field_persona label{
+  text-decoration: underline;
+  clear: none;
+  float: none;
+  font: italic 23px Verdana, Helvetica, Arial;
+}
+input#himalaya.date_select{
+  font-size: 17px;
+}
+
+
+
+div#footer{
+
+}
+
+
+
+div#header h1{
+  clear: none;
+  text-align: center;
+  color: #fff;
+}
+
+input#himalaya_name.text_field{
+font-size: 17px;
+}
+input#himalaya_email.text_field{
+font-size: 17px;
+}
+input#himalaya_personas.text_field{
+font-size: 17px;
+}
+
+input#himalaya_hora.text_field{
+font-size: 17px;
+}
+input#himalaya_phone.text_field{
+font-size: 17px;
+}
+label.control-label{
+
+}
+div#header h1{
+
+}
+
+div#main{
+  background-color: #fff;
+
+}
+
+
+label.control-label{
+  font-style: italic;
+  font-size: 20px;
+}

@@ -1,0 +1,66 @@
+<manifest alg="2" build="50" opt="false">
+  <folder name="assets">
+    <file name="design-request-guidelines.pdf" crc="4190265651" mt="1348270604000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="362843585"/>
+    <file name="master_a-master.css" crc="92106905" ref="localización:index:cocina"/>
+    <file name="localizaci_n.css" crc="224363859" ref="localización"/>
+    <file name="index.css" crc="175292677" ref="index"/>
+    <file name="cocina.css" crc="4133457860" ref="cocina"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="4285342938" ref="index:cocina:localización"/>
+      <file name="museutils.js" crc="56281167" ref="index:cocina:localización"/>
+      <file name="pie.js" crc="3786417276" ref="index:cocina:localización"/>
+      <file name="pie.htc" crc="354638364" ref="index:cocina:localización"/>
+      <file name="jquery.tobrowserwidth.js" crc="4225798834" ref="index:cocina:localización"/>
+      <file name="jquery.musemenu.js" crc="4025593856" ref="index:cocina:localización"/>
+      <file name="webpro.js" crc="171035655" ref="index:cocina"/>
+      <file name="musewpslideshow.js" crc="264849301" ref="index:cocina"/>
+      <file name="jquery.museoverlay.js" crc="4273343390" ref="index:cocina"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="a-master-favicon.ico" crc="208347101" ref="index"/>
+    <file name="unknown-2.jpg" crc="475974840" ref="index:cocina:localización"/>
+    <file name="himalaya-logo.jpg" crc="167304586" ref="index:cocina:localización"/>
+    <file name="u3274-sprite.png" crc="3869781538" ref="index:cocina:localización"/>
+    <file name="nav_rollover.png" crc="4072773426" ref="index:cocina:localización"/>
+    <file name="untitled-1.gif" crc="420093499" ref="index:cocina:localización"/>
+    <file name="unknown-1-u521-fr.jpg" crc="95767533" ref="index"/>
+    <file name="unknown-1.jpg" crc="4232773638" ref="index"/>
+    <file name="untitled.gif" crc="205333799" ref="index"/>
+    <file name="c15-food 11.jpg" crc="3829968887" ref="index"/>
+    <file name="facebook.png" crc="3904665027" ref="index:cocina:localización"/>
+    <file name="untitled-12.gif" crc="382670841" ref="index"/>
+    <file name="email-logo1.gif" crc="4265751062" ref="index:cocina:localización"/>
+    <file name="chicken-tikka59x44.jpg" crc="4271432662" ref="cocina"/>
+    <file name="paneer-makhni59x44.jpg" crc="168830750" ref="cocina"/>
+    <file name="saag-meat59x44.jpg" crc="306854347" ref="cocina"/>
+    <file name="unknown.jpg" crc="4093179593" ref="cocina"/>
+    <file name="seek kabab59x44.jpg" crc="4021404309" ref="cocina"/>
+    <file name="pollo tandoori59x44.jpg" crc="4227753269" ref="cocina"/>
+    <file name="untitled-159x44.png" crc="3937808740" ref="cocina"/>
+    <file name="pollo atikka59x44.jpg" crc="4036000939" ref="cocina"/>
+    <file name="pan naan.jpg" crc="3762565269" ref="cocina"/>
+    <file name="chicken-tikka.jpg" crc="4247996917" ref="cocina"/>
+    <file name="paneer-makhni.jpg" crc="4080899454" ref="cocina"/>
+    <file name="saag-meat.jpg" crc="4026615289" ref="cocina"/>
+    <file name="unknown2.jpg" crc="86591311" ref="cocina"/>
+    <file name="seek kabab.jpg" crc="4087656078" ref="cocina"/>
+    <file name="pollo tandoori.jpg" crc="3826464231" ref="cocina"/>
+    <file name="untitled-1.png" crc="200410655" ref="cocina"/>
+    <file name="pollo atikka.jpg" crc="267504941" ref="cocina"/>
+    <file name="pan naan.png" crc="3945170613" ref="cocina"/>
+    <file name="dark_wood-u3426-fr.jpg" crc="4016882692" ref="localización"/>
+    <file name="440px-barcelona_metro_logo_svg.png" crc="207717086" ref="localización"/>
+    <file name="untitled-2.jpg" crc="416077188" ref="localización"/>
+    <file name="untitled-2.png" crc="367491215" ref="localización"/>
+    <file name="untitled-12.png" crc="41062665" ref="localización"/>
+  </folder>
+  <file name="index.html" crc="3838340179" mt="1353908089577"/>
+  <file name="cocina.html" crc="3909058099" mt="1353908089579"/>
+  <file name="localización.html" crc="3884136204" mt="1353908089582"/>
+</manifest>
